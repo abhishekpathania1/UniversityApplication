@@ -1,0 +1,341 @@
+*{
+  margin:0px;
+  padding:0px;
+  scroll-behavior: smooth;
+  
+
+}
+
+
+/* signin */
+.sign-in{
+  background-image: url("../Images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  position:relative;
+}
+.signin-box {
+  width: 40%;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+.signin h2 {
+color:white;
+}
+.signin {
+  background-color:rgb(0,0,0,0.3);
+  padding: 30px;
+  border-radius: 10px;
+}
+.form-control {
+  width: 100%;
+  
+}
+.float-right {
+  margin-right: 10px;
+}
+.form-group a {
+  text-decoration: underline white;
+  color: white !important ;
+}
+.form-group button{
+    width:30%;
+    font-size: 20px;
+}
+a:hover{
+    color:#129cf3 !important;
+}
+label{
+    color:white;
+}
+span{
+  color:red;
+}
+.choose h1{
+  color:white;
+}
+.choose{
+  position:absolute;
+ margin:20% 27%;
+}
+/* home */
+.greenwich{
+  background-image: url("../Images/greenwich.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  position:relative;
+}
+.nav-item{
+  margin:0px 30px;
+  font-size:20px;
+
+}
+.nav-link{
+  color:white !important;
+}
+.nav-item i{
+  margin:0px 10px;
+  color:white;
+}
+.navbar-brand{
+  margin: 0px 0px 0px 60px;
+}
+nav{
+  background-color:black;
+}
+/* signup */
+.signup{
+  background-image: url("../Images/admission.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  position:relative;
+}
+.home{
+  position:absolute;
+  top:350%;
+  left:36%;
+}
+.home h1{
+  color:white;
+  font-size:60px;
+}
+.home p{
+  color:white;
+  font-size:24px;
+}
+.home button{
+  background-color: transparent !important;
+  color:white;
+}
+
+.adm-box label{
+  color:white;
+}
+.adm-head h1{
+  color:white;
+  margin-top:100px;
+  margin-bottom:50px;
+}
+
+
+
+/* hom */
+.hom{
+  background-image: url("../Images/hom.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  position:relative;
+}
+.homee{
+  position:absolute;
+  top:350%;
+  left:20%;
+}
+.homee h1{
+  color:white;
+  font-size:60px;
+}
+.homee p{
+  color:white;
+  font-size:24px;
+}
+.homee button{
+  background-color: transparent !important;
+  color:white;
+}
+/* profile */
+.profile{
+  background-image: url("../Images/profile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  position:relative;
+}
+.profile h1{
+  color:white;
+
+}
+.profile td {
+  color:white;
+  padding:25px ;
+  font-weight:400;
+  font-size:18px;
+}
+.profile-head{
+  background-color: rgb(0,0,0,0.5);
+  border:1px solid black;
+  position:absolute;
+  margin:4% 18%;
+  width:60%;
+}
+.profile th{
+  color:black;
+  font-size:18px;
+}
+/* addstudent */
+.add{
+  background-image: url("../Images/admin.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  
+}
+/* admin */
+.admin{
+  background-image: url("../Images/student.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+}
+.student-info h2{
+  color:white;
+  margin-bottom: 30px;
+}
+.student-info label{
+  color:white;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 5px;
+}
+.student-info{
+margin-bottom:30px;
+}
+.student td{
+color:white;
+}
+.admin-login{
+  background-image: url("../Images/std.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+}
+.signin-boxw{
+  background-color: rgb(0,0,0,0.5);
+  width: 20%;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
+/* delete */
+.delete{
+  background-image: url("../Images/delete.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+}
+.delete td{
+color:white;
+}
+/* update */
+.update{
+  background-color: rgb(0,0,0,0.5);
+}
+/*  change password  */
+.changepswrd {
+  position: absolute;
+  top:145px;
+  left:145px;
+  background-color:rgb(0,0,0,0.3);
+  padding: 30px;
+  border-radius: 10px;
+}
+.changepswrd h2{
+  color:white;
+}
+.tour-head{
+  background-image: url("../Images/greenwich.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+  background-attachment: fixed;
+}
+.tour-head h1{
+  margin-top:200px;
+  margin-bottom:200px;
+  color:aliceblue;
+  opacity:0;
+}
+.tour-head h1:hover{
+ opacity:1;
+ background-color: rgb(0,0,0,0.5);
+}
+.tour{
+background-image: url("../Images/signup.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+}
+.tour h1{
+  margin-top:30px;
+  color:aliceblue;
+  
+}
+.tour ul{
+  color:white;
+}
+.tour li{
+  margin:30px;
+}
+.tour-content{
+  background-color: rgb(0,0,0,0.5);
+}
+.section-title{
+  background-image: url("../Images/tour2.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+
+}
+.section-title h2,p{
+  color: orange;
+}
+.social-icons ul{
+  color:transparent;
+}
+.social-icons a{
+  color:white;
+ 
+}
+.social-icons li{
+  border:1px solid orange;
+  border-radius:5px;
+  background-color: orange;
+  display:inline-block;
+  width:30px;
+}
+.social-icons li:hover{
+  background-color: white;
+}
+.footer{
+  padding:30px;
+  background-color:rgb(0,0,0,0.79);
+}
+.footer h3{
+  color: orange;
+}
+.scroll-top .fa{
+  background-color: orange;
+  font-size:20px !important;
+  color:white; 
+  width:30px;
+  text-align: center;
+}
+.headd{
+  background-color: rgb(0,0,0,0.79);
+}
+.title{
+  background-color: rgb(0,0,0,0.79);
+}
+.alert{
+  color:red;
+  text-align: center;
+}
+.success{
+  color:green;
+  text-align: center;
+}
